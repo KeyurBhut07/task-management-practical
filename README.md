@@ -16,13 +16,13 @@ Follow the steps below to set up and run the project locally:
 
 3. Install dependencies for both the backend (Node.js) and frontend (React.js):
 
-For the backend:
-   cd backend
-   npm install
+   For the backend:
+      cd backend
+      npm install
 
-For the frontend:
-   cd client
-   npm install
+   For the frontend:
+      cd client
+      npm install
 
 
 4. Set up environment variables:
