@@ -1,0 +1,79 @@
+error: Jun-10-2025 12:09:33: ValidationError: "email" is required
+error: Jun-10-2025 12:10:13: ValidationError: User validation failed: password: Password is required
+    at Document.invalidate (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3104:17
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+error: Jun-10-2025 12:10:13: undefined
+error: Jun-10-2025 12:10:21: ValidationError: User validation failed: password: Password is required
+    at Document.invalidate (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3104:17
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+error: Jun-10-2025 12:10:21: undefined
+error: Jun-10-2025 12:10:39: ValidationError: User validation failed: password: Password is required
+    at Document.invalidate (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3104:17
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+error: Jun-10-2025 12:10:39: undefined
+error: Jun-10-2025 12:11:55: ValidationError: User validation failed: password: Password is required
+    at Document.invalidate (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3104:17
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+error: Jun-10-2025 12:11:55: undefined
+error: Jun-10-2025 12:12:35: ValidationError: User validation failed: password: Password is required
+    at Document.invalidate (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3104:17
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+error: Jun-10-2025 12:12:35: undefined
+error: Jun-10-2025 12:31:57: ValidationError: "name" is required
+error: Jun-10-2025 12:32:37: ValidationError: "name" is required
+error: Jun-10-2025 12:33:16: ValidationError: "createdBy" is not allowed
+error: Jun-10-2025 12:34:23: ValidationError: "createdBy" is not allowed
+error: Jun-10-2025 12:34:53: ValidationError: Task validation failed: title: Title is required
+    at Document.invalidate (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3104:17
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+error: Jun-10-2025 12:34:53: undefined
+error: Jun-10-2025 12:41:38: ValidationError: Task validation failed: title: Title is required
+    at Document.invalidate (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3343:32)
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\document.js:3104:17
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\schemaType.js:1407:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)
+error: Jun-10-2025 12:41:38: undefined
+error: Jun-10-2025 12:43:48: TypeError: Tasks.finById is not a function
+    at Object.getTaskById (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\api\services\task.service.js:22:34)
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\api\controllers\client\task.controller.js:17:39
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\api\helpers\utils\catchAsync.js:7:21
+    at Layer.handle [as handle_request] (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\express\lib\router\route.js:149:13)
+    at isAuthenticate (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\api\policies\authMiddleware.js:25:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+error: Jun-10-2025 12:43:48: undefined
+error: Jun-10-2025 12:44:05: CastError: Cast to ObjectId failed for value "6847d98361431ddc4832c6542" (type string) at path "_id" for model "Task"
+    at SchemaObjectId.cast (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\schema\objectId.js:251:11)
+    at SchemaType.applySetters (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\schemaType.js:1255:12)
+    at SchemaType.castForQuery (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\schemaType.js:1673:17)
+    at cast (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\cast.js:390:32)
+    at Query.cast (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\query.js:5055:12)
+    at Query._castConditions (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\query.js:2351:10)
+    at model.Query._findOne (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\query.js:2674:8)
+    at model.Query.exec (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\mongoose\lib\query.js:4604:80)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async Object.getTaskById (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\api\services\task.service.js:22:22)
+error: Jun-10-2025 12:44:05: undefined
+error: Jun-10-2025 13:03:27: ReferenceError: title is not defined
+    at Object.getAllTask (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\api\services\task.service.js:40:38)
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\api\controllers\client\task.controller.js:28:39
+    at C:\Users\PC - A36\Desktop\Keyur Bhut\backend\api\helpers\utils\catchAsync.js:7:21
+    at Layer.handle [as handle_request] (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\node_modules\express\lib\router\route.js:149:13)
+    at isAuthenticate (C:\Users\PC - A36\Desktop\Keyur Bhut\backend\api\policies\authMiddleware.js:25:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+error: Jun-10-2025 13:03:27: undefined
+error: Jun-10-2025 14:09:35: ValidationError: "email" is required
+error: Jun-10-2025 14:09:44: ValidationError: "password" is required
